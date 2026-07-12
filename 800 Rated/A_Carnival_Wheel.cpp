@@ -1,5 +1,4 @@
 // আমার কাছে তোমার লেখা কোন চিঠি নেই, কোন প্রতিস্রতি নেই..
-
 //সাদায় কিন্তু অদ্ভুত তুমি..
 #include <bits/stdc++.h>
 #include <algorithm>
@@ -18,10 +17,8 @@ void phobia(int t)
         temp = (temp + b) % l;
         if(temp == a) break;
     }
-
     cout << mx << endl;
     
-
    return;
 }
 
